@@ -1,0 +1,10 @@
+build/
+*.vcd
+
+# bitstreams are built locally from Go Configure, not committed
+*.bin
+*.ffpga
+ffpga/
+firmware/*/data/
+
+__pycache__/
